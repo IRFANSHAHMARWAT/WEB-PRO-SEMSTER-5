@@ -1,37 +1,55 @@
 ## Welcome to GitHub Pages
+CSS
+================================================================
+.wrapper{width: 1000px;height: 800px;margin:auto;padding: auto;}
+.nav-bar{width: 300px; height:800px;  float: left;background-color:  rgba(229, 245, 0, 0.753);}
+.menu{width: 250px;height: 400px;    padding: 20px; margin-top:  35px; margin-left: 20px;}
+.content{width: 694px;height: 800px;   float: left;background-color:  rgba(229, 245, 0, 0.753); }
+.para{border-bottom: dashed  orange; width: 694px;height: 300px;}
+h1{padding-left:30px;font-size: 50px;color: purple;}
+h6{font-family: sans-serif;font-size: large}
+BUTTON{height: 49px;
+    WIDTH: 205px;
+    text-align: left;
+    font-size: 20px;
+    color: #0000ff8f;
+    margin-top: 20px;
+    padding-left: 30px;
+    background: linear-gradient(to right, white 80% , black 80% 100%);
+    display: block;}
+p{font-weight: bold;color:purple;padding-left: 20px;}
 
-You can use the [editor on GitHub](https://github.com/IRFANSHAHMARWAT/WEB-PRO-SEMSTER-5/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+================================================================
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+CODE HTML5
 
-### Markdown
+================================================================
+<body>
+    <div CLASS="wrapper">
+        <div class=nav-bar>
+     <div class=menu>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+     <BUTTON><a>Home Page</BUTTON>
+        <BUTTON><a>Musing</BUTTON>
+        <BUTTON><a>My Town</BUTTON>
+        <BUTTON><a>Link</BUTTON>
+    </div>
+        </div>
+        <div class=content>
+      <h1>My First Style Page </h1>
+      <div class=para>
+          <p> Many novice writers tend to make a sharp distinction between content and style, thinking that a paper can be strong in one and weak in the other </p>
+          <p>if there isn’t a careful, coherent argument to give the text meaning. Paragraphs are the “stuff ” of academic writing and, thus, worth our attention here.</p>
+         
+          <p> but focusing on organization shows how content and style converge in deliberative academic writing. Your professors will view even the most elegant prose as rambling and tedious</p>
+      
+    </div>
+    <H6>Desigbed by Irfan ullah shah
+        <br>16 / June / 2021
+    </H6>
+     
+            <div>
+    </div>
+</body>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IRFANSHAHMARWAT/WEB-PRO-SEMSTER-5/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+================================================================
